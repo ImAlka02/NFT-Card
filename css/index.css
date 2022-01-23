@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border-radius: 16px;
+  background-color: hsl(216, 50%, 16%);
+  padding: 20px;
+  max-width: 375px;
+}
+
+.container__header-img {
+    filter: invert(1px);
+    width: 100%;
+    border-radius: 15px;
+}
+
+.container__information {
+    margin-top: 20px;
+}
+
+.container__title {
+    font-size: 2.2rem;
+    font-family: 'Outfit', sans-serif;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.container__title:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.container__description {
+    font-size: 1.8rem;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.container__information-price{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.container__information-priceETH {
+    display: flex;
+    width: 50%;
+}
+
+.container__information-priceETH p{
+    font-size: 1.6rem;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(178, 100%, 50%);
+    margin-left: 7px;
+    font-weight: 500;
+}
+
+.container__information-priceTime{
+    display: flex;
+    width: 50%;
+    justify-content: end;
+}
+
+.container__information-priceTime p {
+    font-size: 1.6rem;
+    font-family:'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    margin-left: 7px;
+}
+
+.container__information-creator{
+    display: flex;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.6rem;
+    align-items: center;
+    margin-top: 20px;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    padding-top: 20px;
+}
+
+.container__information-creator img {
+    border: 2px solid #fff;
+    border-radius: 999px;
+    margin-right: 20px;
+    width: 35px;
+}
+
+.container__information-creator p {
+    color: hsl(215, 51%, 70%);
+}
+
+.container__information-creator > p > span {
+    color: #fff;
+}
